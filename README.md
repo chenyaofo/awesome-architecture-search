@@ -1,6 +1,6 @@
 # Awesome - Neural Architecture Search
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Last%20Update-Mar%2012,%202022-blue.svg)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Last%20Update-Mar%2013,%202022-blue.svg)
 
 This repo provides an up-to-date list of progress made in Neural architecture search, which includes but not limited to papers, datasets, codebases, frameworks and etc. Please feel free to [open an issue](https://github.com/chenyaofo/awesome-architecture-search/issues) to add new progress.
 
@@ -8,6 +8,8 @@ This repo provides an up-to-date list of progress made in Neural architecture se
 **Note**: The papers are grouped by published year. In each group, the papers are sorted by their citations. In addition, the paper with <ins>underline</ins> means a milestone in the field. The third-party code prefers `PyTorch`. If you are interested in manually-deisgned architectures, please refer to my another repo [awesome-architecture-search](https://github.com/chenyaofo/awesome-vision-architecture).
 
  - <a href="#Main Progress">Main Progress</a>
+   - <a href="#2019 Venues">2019 Venues</a>
+   - <a href="#2018 Venues">2018 Venues</a>
    - <a href="#2017 Venues">2017 Venues</a>
  - <a href="#Survey">Survey</a>
  - <a href="#Datasets">Datasets</a>
@@ -15,6 +17,20 @@ This repo provides an up-to-date list of progress made in Neural architecture se
  - <a href="#Misc">Misc</a>
 
 # <a name="Main Progress">Main Progress</a>
+
+## <a name="2019 Venues">2019 Venues</a>
+
+ - <ins>**DARTS: Differentiable Architecture Search**</ins> `Cited by 2.4k` `ICLR` `2019` `Carnegie Mellon University` `Google DeepMind` `DARTS` [`PDF`](https://openreview.net/pdf?id=S1eYHoC5FX) [`Official Code (Stars 3.5k)`](https://github.com/quark0/darts)  ***TL;DR**: This paper addresses the scalability challenge of architecture search by formulating the task in a differentiable manner. Unlike conventional approaches of applying evolution or reinforcement learning over a discrete and non-differentiable search space, the proposed method is based on the continuous relaxation of the architecture representation, allowing efficient search of the architecture using gradient descent.*
+
+ - **Regularized Evolution for Image Classifier Architecture Search** `Cited by 1.8k` `AAAI` `2019` `Google Brain` `Evolution` `AmoebaNet` [`PDF`](https://ojs.aaai.org//index.php/AAAI/article/view/4405) [`Official Code (Stars 22.3k)`](https://github.com/google-research/google-research/tree/master/evolution/regularized_evolution_algorithm)  ***TL;DR**: The authors evolve an image classifier---AmoebaNet-A---that surpasses hand-designs for the first time. To do this, they modify the tournament selection evolutionary algorithm by introducing an age property to favor the younger genotypes.*
+
+
+
+## <a name="2018 Venues">2018 Venues</a>
+
+ - <ins>**Efficient Neural Architecture Search via Parameters Sharing**</ins> `Cited by 1.8k` `ICML` `2018` `Google Brain` `Carnegie Mellon University` `ENAS` `Reinforcement Learning` [`PDF`](http://proceedings.mlr.press/v80/pham18a/pham18a.pdf)  [`Third-party Code (Stars 2.5k)`](https://github.com/carpedm20/ENAS-pytorch) ***TL;DR**: The proposed method (ENAS) constructs a large computational graph (suprenet), where each subgraph represents a neural network architecture, hence forcing all architectures to share their parameters. Evaluating candidate architectures with these subgraphs and their corresponding parameters would lead to much lower GPU hours (1000x less expensive than existing methods).*
+
+
 
 ## <a name="2017 Venues">2017 Venues</a>
 
