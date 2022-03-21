@@ -75,3 +75,7 @@ This repo provides an up-to-date list of progress made in Neural architecture se
 # <a name="Codebases">Codebases</a>
 
  - [**D-X-Y/AutoDL-Projects**](https://github.com/D-X-Y/AutoDL-Projects) `Stars 1.3k` `AutoDL` ***TL;DR**: Automated Deep Learning Projects (AutoDL-Projects) is an open source, lightweight, but useful project for everyone. This project implemented several neural architecture search (NAS) and hyper-parameter optimization (HPO) algorithms.*
+
+# <a name="Misc">Misc</a>
+
+ - [**CVPR 2021 WorkShop - 1st Lightweight NAS Challenge and Moving Beyond**](https://cvpr21-nas.com/) `NAS Challenge` ***TL;DR**: The goals of this workshop are to 1) bring together emerging research in the areas of NAS and etc. to discuss open challenges and opportunities ahead; 2) benchmark lightweight NAS in a systematic and realistic approach. This workshop provides [winner solutions](https://cvpr21-nas.com/competition) of lightweight NAS competitions, and the corresponding [submitted papers](https://cvpr21-nas.com/Paper_Submission).*
