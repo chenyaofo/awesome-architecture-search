@@ -1,6 +1,6 @@
 # Awesome - Neural Architecture Search
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Last%20Update-Mar%2021,%202022-blue.svg)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Last%20Update-Mar%2022,%202022-blue.svg)
 
 This repo provides an up-to-date list of progress made in Neural architecture search, which includes but not limited to papers, datasets, codebases, frameworks and etc. Please feel free to [open an issue](https://github.com/chenyaofo/awesome-architecture-search/issues) to add new progress.
 
@@ -34,6 +34,10 @@ This repo provides an up-to-date list of progress made in Neural architecture se
 
  - **Single Path One-Shot Neural Architecture Search with Uniform Sampling** `Cited by 406` `ECCV` `2020` `MEGVII Technology` `SPOS` `Supernet Training` [`PDF`](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610528.pdf)  [`Third-party Code (Stars 206)`](https://github.com/ShunLu91/Single-Path-One-Shot-NAS) ***TL;DR**: The authors seek to construct a simplified supernet, where all architectures are single paths so that weight co-adaption problem is alleviated. Training is performed by uniform path sampling. All architectures (and their weights) are trained fully and equally.*
 
+ - **FBNetV2: Differentiable Neural Architecture Search for Spatial and Channel Dimensions** `Cited by 140` `CVPR` `2020` `UC Berkeley` `Facebook Inc.` `FBNetV2` [`PDF`](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wan_FBNetV2_Differentiable_Neural_Architecture_Search_for_Spatial_and_Channel_Dimensions_CVPR_2020_paper.pdf) [`Official Code (Stars 703)`](https://github.com/facebookresearch/mobile-vision)  ***TL;DR**: The authors propose a memory and computationally efficient DNAS variant: DMaskingNAS. This algorithm expands the search space by up to 10^14x over conventional DNAS, supporting searches over spatial and channel dimensions that are otherwise prohibitively expensive: input resolution and number of filters.*
+
+ - **FBNetV3: Joint Architecture-Recipe Search using Neural Acquisition Function** `Cited by 40` `arXiv` `2020` `Facebook Inc.` `UC Berkeley` `UNC Chapel Hill` `FBNetV3` [`PDF`](https://arxiv.org/pdf/2006.02049.pdf)   ***TL;DR**: Previous NAS methods search for architectures under one set of training hyper-parameters (i.e., a training recipe), overlooking superior architecture-recipe combinations. To address this, this paper presents Neural Architecture-Recipe Search (NARS) to search both architectures and their corresponding training recipes, simultaneously.*
+
 
 
 ## <a name="2019 Venues">2019 Venues</a>
@@ -42,7 +46,11 @@ This repo provides an up-to-date list of progress made in Neural architecture se
 
  - **Regularized Evolution for Image Classifier Architecture Search** `Cited by 1.9k` `AAAI` `2019` `Google Brain` `Evolution` `AmoebaNet` [`PDF`](https://ojs.aaai.org//index.php/AAAI/article/view/4405) [`Official Code (Stars 22.4k)`](https://github.com/google-research/google-research/tree/master/evolution/regularized_evolution_algorithm)  ***TL;DR**: The authors evolve an image classifier---AmoebaNet-A---that surpasses hand-designs for the first time. To do this, they modify the tournament selection evolutionary algorithm by introducing an age property to favor the younger genotypes.*
 
+ - **MnasNet: Platform-Aware Neural Architecture Search for Mobile** `Cited by 1.7k` `CVPR` `2019` `Google Brain` `Google Inc.` `MNASNet` [`PDF`](https://openaccess.thecvf.com/content_CVPR_2019/papers/Tan_MnasNet_Platform-Aware_Neural_Architecture_Search_for_Mobile_CVPR_2019_paper.pdf) [`Official Code (Stars 4.7k)`](https://github.com/tensorflow/tpu/blob/master/models/official/mnasnet/README.md)  ***TL;DR**: The authors propose an automated mobile neural architecture search (MNAS) approach, which explicitly incorporate model latency into the main objective, where latency is directly measures as real-world inference latency by executing the model on mobile phones.*
+
  - **ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware** `Cited by 1.1k` `ICLR` `2019` `Massachusetts Institute of Technology` `ProxylessNAS` [`PDF`](https://openreview.net/pdf?id=HylVB3AqYm) [`Official Code (Stars 1.3k)`](https://github.com/MIT-HAN-LAB/ProxylessNAS)  ***TL;DR**: This paper presents ProxylessNAS that can directly learn the architectures for large-scale target tasks and target hardware platforms. The proposed method address the high memory consumption issue of differentiable NAS and reduce the computational cost (GPU hours and GPU memory) to the same level of regular training while still allowing a large candidate set.*
+
+ - **FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search** `Cited by 766` `CVPR` `2019` `UC Berkeley` `Princeton University` `Facebook Inc.` `FBNet` `Latency Table` [`PDF`](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_FBNet_Hardware-Aware_Efficient_ConvNet_Design_via_Differentiable_Neural_Architecture_Search_CVPR_2019_paper.pdf) [`Official Code (Stars 703)`](https://github.com/facebookresearch/mobile-vision)  ***TL;DR**: The authors propose a differentiable neural architecture search (DNAS) framework that uses gradient-based methods to optimize ConvNet architectures, by directly considering latency on target devices.*
 
 
 
